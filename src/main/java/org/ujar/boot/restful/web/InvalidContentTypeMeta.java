@@ -1,4 +1,4 @@
-package org.ujar.boot.restful.web.dto;
+package org.ujar.boot.restful.web;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.ujar.boot.restful.web.dto;
+package org.ujar.boot.restful.web;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
@@ -10,7 +10,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PageRequestDto {
+public class PaginationRequest {
   @Parameter(description = "Page number")
   @Schema(minimum = "0")
   @Min(0)

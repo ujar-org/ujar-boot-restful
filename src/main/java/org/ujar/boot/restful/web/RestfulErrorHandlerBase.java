@@ -20,13 +20,6 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-import org.ujar.boot.restful.web.dto.Error;
-import org.ujar.boot.restful.web.dto.ErrorResponse;
-import org.ujar.boot.restful.web.dto.InvalidContentTypeMeta;
-import org.ujar.boot.restful.web.dto.InvalidHttpMethodMeta;
-import org.ujar.boot.restful.web.dto.InvalidRequestBodyMeta;
-import org.ujar.boot.restful.web.dto.InvalidRequestParameterMeta;
-import org.ujar.boot.restful.web.dto.UnknownErrorMeta;
 
 public class RestfulErrorHandlerBase {
 

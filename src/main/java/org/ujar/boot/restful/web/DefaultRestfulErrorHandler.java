@@ -18,13 +18,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-import org.ujar.boot.restful.web.dto.ErrorCode;
-import org.ujar.boot.restful.web.dto.ErrorResponse;
-import org.ujar.boot.restful.web.dto.InvalidContentTypeMeta;
-import org.ujar.boot.restful.web.dto.InvalidHttpMethodMeta;
-import org.ujar.boot.restful.web.dto.InvalidRequestBodyMeta;
-import org.ujar.boot.restful.web.dto.InvalidRequestParameterMeta;
-import org.ujar.boot.restful.web.dto.UnknownErrorMeta;
 
 @Slf4j
 @RestControllerAdvice

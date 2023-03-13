@@ -1,4 +1,4 @@
-package org.ujar.boot.restful.web.dto;
+package org.ujar.boot.restful.web;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;
 

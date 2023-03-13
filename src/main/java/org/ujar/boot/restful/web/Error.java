@@ -1,4 +1,4 @@
-package org.ujar.boot.restful.web.dto;
+package org.ujar.boot.restful.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,16 +1,17 @@
-package org.ujar.boot.restful.web.dto;
+package org.ujar.boot.restful.web;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.ujar.boot.restful.web.PaginationRequest;
 
-class PageRequestDtoTest {
-  private PageRequestDto dto;
+class PaginationRequestTest {
+  private PaginationRequest dto;
 
   @BeforeEach
   void setUp() {
-    dto = new PageRequestDto();
+    dto = new PaginationRequest();
   }
 
   @Test

@@ -2,8 +2,9 @@ package org.ujar.boot.restful.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.ujar.boot.build.BuildInfoConfig;
 
 @Configuration
-@Import(DefaultRestfulErrorHandler.class)
+@Import({BuildInfoConfig.class, DefaultRestfulErrorHandler.class})
 public class WebConfig {
 }
